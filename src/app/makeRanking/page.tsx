@@ -57,6 +57,9 @@ export default function Home() {
           setIsSending(true);
           try {
             await axios.post("/api/makeRanking", { password, username, score });
+            alert("送信しました");
+            setScore(0);
+            setUsername("");
           } catch (e) {
             if ((e as any).response.data.error === "Invalid password") {
               alert("パスワードが違います");

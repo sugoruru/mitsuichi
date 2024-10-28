@@ -53,7 +53,11 @@ export default function Home() {
         </div>
         <div className="text-center text-2xl lg:text-7xl font-bold text-[#222]">書き下ろし小説</div>
         <div className="text-center text-2xl lg:text-5xl font-bold text-[#222] mb-10">『真偽信仰』</div>
-        <div className="text-center text-sm lg:text-2xl font-bold text-[#222]">テキストテキストテキストテキストテキストテキスト</div>
+        <div className="text-center text-sm lg:text-2xl font-bold text-[#222]">
+          <p>「三一神社悪滅祭 ストラックアウト」</p>
+          <p>原作小説！</p>
+          <p>期間限定で全編特別公開！</p>
+        </div>
         <div className="flex justify-center">
           <Link href="/novel">
             <button className="text-center flex text-2xl lg:text-3xl font-bold text-white bg-[#5b9035] px-5 py-2 transition hover:bg-[#3b631e] rounded-full mt-10">
