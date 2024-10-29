@@ -28,6 +28,7 @@ export default function Home() {
         onChange={(e) => {
           setUsername(e.target.value);
         }}
+        value={username}
       />
       <br />
       <label htmlFor="username">スコア:</label>
@@ -40,7 +41,7 @@ export default function Home() {
         }}
         min={0}
         max={9}
-        defaultValue={0}
+        value={score}
       />
       <br />
       <button

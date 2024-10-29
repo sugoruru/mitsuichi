@@ -1,4 +1,3 @@
 select *
 from main
-order by score desc
-limit 5;
+order by score desc;
