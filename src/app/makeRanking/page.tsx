@@ -40,7 +40,7 @@ export default function Home() {
           setScore(Number(e.target.value));
         }}
         min={0}
-        max={9}
+        max={1000}
         value={score}
       />
       <br />
